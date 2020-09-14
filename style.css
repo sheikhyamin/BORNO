@@ -1,0 +1,130 @@
+*{padding: 0; margin:0;	box-sizing: border-box;
+}
+body{
+	background-image: url('yamin.jpg');
+     background-size: cover;
+    font-family: sans-serif;	
+}
+.menu-bar{
+	background: rgb(0, 100, 0);
+	text-align: center;
+
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: black;
+}
+.menu-bar ul li {
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: inline-flex;
+} 
+.active, .menu-bar ul li:hover{
+	background: black;
+	border-radius: 3px; 
+}
+.menu-bar .fa{
+	margin-right:8px;
+	  
+}
+.sub-menu-1
+{display: none;}
+  
+  .menu-bar ul li:hover .sub-menu-1{
+  	display: block;
+  	position: absolute;
+  	background: rgb(0, 100, 0);
+  	margin-top: 15px;
+  	margin-left: -15px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul
+  {
+  	display: block;margin: 10px;
+  }
+    .menu-bar ul li:hover .sub-menu-1 ul li
+    {
+    	 width: 150px;padding: 10px;
+    	 border-bottom: 1px solid white;
+    	 background: transparent;
+    	 border-radius: 0;
+    	 text-align: left;
+    }
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{border-bottom: none;}
+
+
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover
+  {
+  	color: black;
+  }
+  .sub-menu-2
+  {
+  	display: none;
+  }
+  .hover-me:hover  .sub-menu-2
+  {
+  	position: absolute;
+  	display: block;
+  	margin-top: -40px;
+  	margin-left: 140px;
+  	background: rgb(0, 100, 0);
+  }
+
+
+
+
+
+
+     #amar {
+    text-align: left;
+    width: 500px;
+    height: 700px;
+    border: 5px solid #ece2e2;
+    padding: 10px;
+    background-color: black;
+    margin-left: 750px;
+    margin-top: 80px;
+    background-color: darkslategray;
+}
+
+    div.first input{background-color: #dbd24c8a; margin-bottom: 10px;border:1px solid black; width:480px;padding:10px;}
+    div.last input{padding:12px; background-color: #0cc26d8a;margin-bottom: 10px; border:1px solid black; width: 480px; }
+    div.id input{padding:12px;background-color: #dbd24c8a; margin-bottom: 10px;  border:1px solid black; width: 480px;}
+    div.pass input{padding:12px;background-color: #0cc26d8a; margin-bottom: 15px; border:1px solid black; width: 480px; }
+    
+
+    div input{border:1px solid black;} 
+    div.sign input{width: 150px;
+      font-family:arial black;
+      background-color:aqua; border:5px solid black; padding:15px; box-shadow: red;
+      text-shadow: green;}
+    .form input{margin-bottom: 40px;
+      font-family: font-family: arial black;font-size: 22px; padding-top: 5px;width: 100%;background-color: aqua;}
+      #look select{margin-bottom: 10px; width:250px;height:100%;font-family: arial black; font-size: 20px; text-align: center;background-color: #e5ec1aba;}
+      #look{margin-bottom: 20px; text-align: left;}
+
+      .hobby{margin-bottom: 20px;text-align: left; color: black;font-family: arial black;}
+
+      .hobby input{margin-bottom: 50px; font-size: 50px; display: inline-block;}
+      .tom{margin-bottom: 30px;color: white;text-align: left;color: black;font-family: arial black;}
+  
+
+  
+  
+    body{
+  background-color: #181e1e; 
+}
+.sign input:hover{
+background-color: white;
+}
+
+
+
+
